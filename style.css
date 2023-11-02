@@ -1,0 +1,57 @@
+/* This is a comment in CSS file */
+
+/* This can be as starter code, just to get custom font and borders as we did not talk much about this in the lesson*/
+/*===== GOOGLE FONTS this gives us a whole new set of fonts =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+html{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+
+/* Task 2 - style titles. We have h1 and h2 in the index.html */
+h1{
+    font-size: 3em; /* Relative so design is responsive */
+    font-weight: bold;
+    color: #F24996; /* CFG pink */
+    text-align: center;  
+}
+h2{
+    font-size: 1.8em;
+    font-family: cursive;
+    color: rgb(111, 68, 134); /* Picked by name and then adjusted using the colour pop-up */
+    text-align: left;
+    
+}
+
+
+/* Task 3 - style list of skills. */
+/* we need to add a class specifier or id to skills list as we do
+ not want to style the education list */
+/* Need to add one and the same class name for top 3 skills */
+.skills-list{
+    list-style: decimal-leading-zero; /* High tech */
+}
+.top-skill{
+    color: #fff;
+    /* This can be uncommented as it is long to type out and not main learning goal */
+    text-shadow:
+      0 0 7px rgb(180, 2, 162),
+      0 0 10px rgb(180, 2, 162),
+      0 0 21px rgb(180, 2, 162),
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff;
+}
+
+
+/* Task 4 - add background image. Note, if the image is too small,
+ it will repeat to fill in the page.*/
+body{
+    background-color: #8EC5FC; /* if image does not load */ 
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)
+}
